@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Set up the enrollment token for organizational unit: VINI VIDI VICI LAMONGAN, CV
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"CloudManagementEnrollmentToken"="721f6d81-9711-4321-bf5b-3c841b633fc7"

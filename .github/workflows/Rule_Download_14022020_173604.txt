@@ -1,0 +1,95 @@
+[
+  {
+    "name": "rules/00gjdgxs19gb7ts",
+    "displayName": "VINI VIDI VICI LAMONGAN",
+    "description": "General Contractor & Supplier",
+    "targets": {
+      "includedEntity": [
+        {
+          "ouId": "03ph8a2z3gsj13t"
+        },
+        {
+          "groupId": "00tyjcwt0wnhnyo"
+        },
+        {
+          "groupId": "03s49zyc1r30llk"
+        },
+        {
+          "groupId": "03ep43zb0ym3sjm"
+        },
+        {
+          "groupId": "03ep43zb37xm1o8"
+        }
+      ]
+    },
+    "updateTime": "2020-02-13T05:10:12.808863Z",
+    "trigger": [
+      "DRIVE_SHARE"
+    ],
+    "action": [
+      {
+        "actionName": "ALERT_CENTER",
+        "actionId": "00gjdgxs2919o5l",
+        "subAction": [
+          {
+            "name": "ALERT",
+            "actionParameters": {
+              "@type": "type.googleapis.com/apps.alecs.AlertConfiguration",
+              "notificationConfig": {
+                "recipientConfigs": [
+                  {
+                    "channel": [
+                      "EMAIL"
+                    ],
+                    "superAdmin": true,
+                    "individualRecipients": [
+                      {
+                        "email": "management@vinividivicilamongan.my.id"
+                      },
+                      {
+                        "email": "admin@vinividivicilamongan.my.id"
+                      },
+                      {
+                        "email": "info@vinividivicilamongan.my.id"
+                      },
+                      {
+                        "email": "support@vinividivicilamongan.my.id"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "status": {}
+            }
+          }
+        ],
+        "genericApplicationId": {
+          "googleApplication": "alert_center"
+        }
+      },
+      {
+        "actionName": "WARN_ON_EXTERNAL_SHARING",
+        "actionId": "00gjdgxs0o6jyde",
+        "genericApplicationId": {
+          "googleApplication": "drive"
+        }
+      }
+    ],
+    "status": "ACTIVE",
+    "createTime": "2020-02-13T05:10:12.385Z",
+    "ruleType": "DLP",
+    "metadata": {
+      "parameter": [
+        {
+          "name": "severity",
+          "stringValue": "MEDIUM"
+        }
+      ]
+    },
+    "applicationIds": [
+      {
+        "googleApplication": "drive"
+      }
+    ]
+  }
+]

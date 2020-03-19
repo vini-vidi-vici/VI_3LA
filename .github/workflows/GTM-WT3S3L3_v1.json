@@ -1,0 +1,248 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-02-26 12:46:26",
+    "containerVersion": {
+        "path": "accounts/6000602617/containers/30676386/versions/1",
+        "accountId": "6000602617",
+        "containerId": "30676386",
+        "containerVersionId": "1",
+        "name": "GAPEKNAS",
+        "description": "GABUNGAN PENGUSAHA KONTRAKTOR NASIONAL INDONESIA",
+        "container": {
+            "path": "accounts/6000602617/containers/30676386",
+            "accountId": "6000602617",
+            "containerId": "30676386",
+            "name": "lamongan107.page",
+            "publicId": "GTM-WT3S3L3",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1582222309982",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6000602617/containers/30676386/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "tagId": "8",
+                "name": "ASOSIASI PERUSAHAAN JASA KONTRUKSI",
+                "type": "gaawc",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "userProperties",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "ASOSIASI PERUSAHAAN JASA KONTRUKSI{{ASOSIASI}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendPageView",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementId",
+                        "value": "G-SBDZHXJRM9"
+                    }
+                ],
+                "fingerprint": "1582720784409",
+                "firingTriggerId": [
+                    "7"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "tagId": "9",
+                "name": "KANTOR CABANG",
+                "type": "gaawc",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "userProperties",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "D.P.D. Gapeknas Kab. Lamongan"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "https://business.google.com/dashboard/l/15309694384867976302"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendPageView",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementId",
+                        "value": "G-SBDZHXJRM9"
+                    }
+                ],
+                "fingerprint": "1582721083276",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "triggerId": "7",
+                "name": "DPH",
+                "type": "CLICK",
+                "fingerprint": "1582718401864"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "variableId": "6",
+                "name": "ASOSIASI",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "contentGroup",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "6000602531"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "group",
+                                        "value": "DPD GAPEKNAS KAB. LAMONGAN"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "autoLinkDomains",
+                        "value": "lamongan107.page"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-158830990-1"
+                    }
+                ],
+                "fingerprint": "1582718367879"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6000602617",
+                "containerId": "30676386",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1582721134213",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6000602617/containers/30676386/versions/1?apiLink=version"
+    }
+}
